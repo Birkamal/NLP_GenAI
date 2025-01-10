@@ -1,0 +1,13 @@
+prefix=/Users/macair/Documents/to mac1/Projects/NLP_GenAI_KN/venv
+exec_prefix=/Users/macair/Documents/to mac1/Projects/NLP_GenAI_KN/venv
+libdir=/Users/macair/Documents/to mac1/Projects/NLP_GenAI_KN/venv/lib
+sharedlibdir=/Users/macair/Documents/to mac1/Projects/NLP_GenAI_KN/venv/lib
+includedir=/Users/macair/Documents/to mac1/Projects/NLP_GenAI_KN/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
